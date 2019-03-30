@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Bullet collision sequence
 
 score += 10;
 audio_play_sound(snd_die, 1, false);

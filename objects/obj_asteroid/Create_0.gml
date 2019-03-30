@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Astroid create sequence
 
 sprite_index = choose(
 	spr_asteroid_sm,
