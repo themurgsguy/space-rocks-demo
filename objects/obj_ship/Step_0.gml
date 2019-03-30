@@ -4,6 +4,10 @@ if (keyboard_check(vk_up) || keyboard_check(foward)) {
 	motion_add(image_angle, fwd_speed);
 }
 
+if (keyboard_check(vk_down) || keyboard_check(back)) {
+	motion_add(image_angle, -fwd_speed);
+}
+
 if (keyboard_check(vk_left) || keyboard_check(left)) {
 	image_angle += turn_speed;
 }
