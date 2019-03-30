@@ -3,7 +3,7 @@
 lives -= 1;
 
 with(obj_game) {
-	alarm[1] = room_speed;
+	alarm[1] = room_speed * 2;
 }
 
 instance_destroy();
